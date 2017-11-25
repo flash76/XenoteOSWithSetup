@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.Net.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProjectGuid>{e6ded1e7-5c14-4d8c-9b7a-1eede9a135e9}</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="XenoteOS_with_SetupBoot.Cosmos" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Cosmos.Debug.Kernel" Version="*" />
+    <PackageReference Include="Cosmos.System2" Version="*" />
+  </ItemGroup>
+
+</Project>
