@@ -9,15 +9,22 @@ namespace XenoteOS_with_Setup
     {
         protected override void BeforeRun()
         {
-            Console.WriteLine("Cosmos booted successfully. Type a line of text to get it echoed back.");
+            Console.WriteLine("__   __                 _        _____ _____ \r\n\\ \\ / /                | |      |  _  /  ___|\r\n \\ V /  ___ _ __   ___ | |_ ___ | | | \\ `--. \r\n /   \\ / _ \\ '_ \\ / _ \\| __/ _ \\| | | |`--. \\\r\n/ /^\\ \\  __/ | | | (_) | ||  __/\\ \\_/ /\\__/ /\r\n\\/   \\/\\___|_| |_|\\___/ \\__\\___| \\___/\\____/ \r\n                                             \r\n     ");
+            Console.WriteLine("(c) 2017 by Varun Somashekar\n This software is made available under the Apache Licence 2.0");
         }
         
         protected override void Run()
         {
-            Console.Write("Input: ");
-            var input = Console.ReadLine();
-            Console.Write("Text typed: ");
-            Console.WriteLine(input);
+            string dash = "=";
+
+            for (int i = 0; i < 40; i++)
+            {
+                dash += "'";
+            }
+
+            Console.WriteLine("\tWelcome to XenoteOS");
+
+            Console.WriteLine("Let's set you up.");
         }
     }
 }
