@@ -15,11 +15,11 @@ namespace XenoteOS_with_Setup
         
         protected override void Run()
         {
-            string dash = "=";
+            string setupBorder = "";
 
             for (int i = 0; i < 40; i++)
             {
-                dash += "=";
+                setupBorder += "=";
             }
 
             Console.WriteLine("\tWelcome to XenoteOS");
