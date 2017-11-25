@@ -19,7 +19,7 @@ namespace XenoteOS_with_Setup
 
             for (int i = 0; i < 40; i++)
             {
-                dash += "'";
+                dash += "=";
             }
 
             Console.WriteLine("\tWelcome to XenoteOS");
