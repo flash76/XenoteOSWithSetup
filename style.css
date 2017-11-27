@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+.coolTitleText {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: green;
+	size: 30;
+	text-align: center;
+}
